@@ -1,17 +1,26 @@
-Machine learning pipeline for detecting fraudulent credit card transactions on a highly imbalanced dataset (<0.2% fraud). Focused on recall optimization, class imbalance handling, and practical model evaluation.
-Approach
-Standardized transaction Amount and Time
-Stratified train/test split
-Balanced training data using SMOTE
-Trained and compared:
-Logistic Regression (recall-focused baseline)
+Credit Card Fraud Detection Pipeline
+📌 Project Overview
+This project implements a machine learning pipeline to detect fraudulent credit card transactions on a highly imbalanced dataset (<0.2% fraud). The focus is on optimizing recall, handling class imbalance, and evaluating models using practical metrics beyond accuracy.
+🚀 Key Features
+Data Preprocessing & Balancing:
+Standardized Amount and Time features
+Stratified train/test split to preserve class distribution
+Used SMOTE to balance training data
+Model Training & Evaluation:
+Logistic Regression (baseline, recall-focused)
 Random Forest (nonlinear ensemble model)
-Tuned probability threshold to increase fraud recall
-Results
-Random Forest: strong precision–recall balance
-Tuned model: improved fraud recall with controlled false positives
-Identified top fraud-related features using feature importance
-Tech Stack
-Python, Pandas, NumPy, Scikit-learn, SMOTE, Matplotlib, Seaborn
-Skills Demonstrated
-Imbalanced classification, ensemble learning, threshold tuning, model evaluation beyond accuracy, fraud detection systems
+Tuned probability thresholds to improve fraud recall
+Evaluated models with precision–recall metrics
+Insights & Feature Analysis:
+Random Forest achieved strong precision–recall balance
+Threshold tuning improved fraud recall while controlling false positives
+Identified top fraud-related features via feature importance
+🛠️ Tech Stack & Tools
+Language: Python
+Libraries: Pandas, NumPy, Scikit-learn, Imbalanced-learn (SMOTE), Matplotlib, Seaborn
+🎯 Skills Demonstrated
+Handling highly imbalanced classification problems
+Ensemble learning and model comparison
+Probability threshold tuning for recall optimization
+Practical model evaluation beyond simple accuracy
+Fraud detection system design
